@@ -4,7 +4,7 @@ This project is dedicated to promoting mental health and providing support to th
 
 ## Table of Contents
 
-- [Project Overview](https://eglantinenf.github.io/mental-health/#home)
+- [Project Overview](https://eglantinenf.github.io/Mental-Health/#home)
 
 ## Project main title
 
@@ -36,4 +36,4 @@ Reach out to me for questions, feedback, or support using the provided contact i
 
 Rest In Peace my Dear Grandpa :)) i dedicate this project to you
 
--[Demo] (https://eglantinenf.github.io/mental-health/)
+-[Demo] (https://eglantinenf.github.io/Mental-Health/)
