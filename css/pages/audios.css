@@ -1,0 +1,98 @@
+/* ------------podcast-------------- */
+#podcast h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #bc4d4d;
+    margin-bottom: 20px;
+  }
+    
+  #podcast p {
+      font-size: 18px;
+      line-height: 1.5em;
+      margin-bottom: 20px;
+      color: #843638;
+  }
+    
+  .info a {
+      color: #990f0f;
+      background-color: #b160601e;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 5px;
+  }
+    
+  .info a:hover {
+      text-decoration: none;
+      font-weight: bold;
+      color: #990f0f;
+      background-color: #822f2f5e;
+  }
+  .spoiler-btn {
+    padding: 0.75em 2em;
+    color: #fff; /* Changed to white for better contrast */
+    background-color: #990f0f;
+    border: none;
+    border-radius: 50px; /* Increased radius for modern look */
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.1em; /* Adjusted font size */
+    font-weight: bold; /* Added bold font weight */
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+    
+  .spoiler-btn:hover {
+      background: #c37e7f;
+      transform: scale(1.05);
+  }
+  
+  .spoil {
+      /* display: none; */
+      border: #cb6c6d92 solid; 
+      border-radius: 8px;
+      padding: 5px 8px;
+      font-weight: bold;
+      text-align: right;
+      margin-top: 10px;
+  }
+  
+  hr {
+    border-color: #da97985b;
+    height: 5px;
+    background-color: #da97985b;
+  }
+  
+/* --------------music------------------ */
+
+#music h2 {  
+    padding-top: 20px;  
+    font-size: 2.5em;  
+    color: #66090b;  
+    margin-bottom: 0.5em; /* Added margin-bottom for spacing below the header */  
+    font-weight: 700;  
+    animation: fadeIn 1.5s ease-in-out;  
+    text-align: center; /* Centered the header text */  
+}  
+
+#music-container {  
+    width: 100%;
+    padding: 1em; /* Added padding for the content area */  
+}  
+
+#music-container h3 {  
+    color: #ad494a;  
+    margin: 1em 0 0.5em 0; /* Set consistent margin: top, bottom, and reset margin to remove excess above */  
+}  
+
+#music-container audio {  
+    width: 100%; /* Ensured the audio player takes full width of its container */  
+    margin: 1em 0; /* Reduced margin for tighter spacing */  
+    border: 2px solid #db898a;  
+    border-radius: 50px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}
+
+#lyrics {
+    margin-bottom: 10px;
+}

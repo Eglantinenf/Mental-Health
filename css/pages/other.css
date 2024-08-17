@@ -1,0 +1,39 @@
+/* -------------------contact------------------------ */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: #db898a;
+  border-radius: 8px;
+  margin: 2em auto;
+  max-width: 500px;
+  color: #470505;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5em;
+}
+
+.contact-link {
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.contact-link:hover {
+  color: #ebe7e7;
+  transform: translateY(-3px);
+}
+
+.contact-link svg {
+  width: 2em;
+  height: 2em;
+}
+
+/* ---------------------------------- */
+
+#about {
+  text-align: right;
+}

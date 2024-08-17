@@ -1,0 +1,130 @@
+/* Sidebar Styles */  
+.sidebar {  
+    height: 100%;  
+    width: 250px;  
+    position: fixed;  
+    z-index: 1001;  
+    top: 0;  
+    right: -350px; 
+    background-color: #e98183;  
+    overflow-x: hidden;  
+    transition: 0.3s;  
+    padding-top: 60px;  
+}  
+
+.sidebar a {  
+    padding: 10px 15px;  
+    text-decoration: none;  
+    font-size: 1.1em;  
+    color: #fefbfb;  
+    display: block;  
+    transition: background-color 0.3s, transform 0.3s;  
+}  
+
+.sidebar a:hover {  
+    background-color: #e64d50;  
+    color: white;  
+    transform: scale(1.02);
+}  
+
+.closebtn {  
+    font-size: 36px;  
+    color: white;  
+    position: absolute;  
+    top: 20px;  
+    left: 20px;  
+    cursor: pointer;  
+    transition: transform 0.3s;
+}  
+
+.closebtn:hover {
+    transform: scale(1.2);
+}
+
+.icon {
+    display: none;
+}
+/* Header styles */  
+header {  
+    background-color: #db898a;  
+    color: white;  
+    padding: 20px 32px;  
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);  
+    position: fixed;  
+    width: 100%;  
+    top: 0;  
+    z-index: 1000;  
+    font-size: 1.1em;
+    height: 30px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}  
+
+header nav {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    width: 100%;
+}  
+
+header nav ul {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    gap: 2em;  
+}  
+
+header nav a {  
+    font-size: 1.1em;  
+    color: #fefbfb;  
+    text-decoration: none;  
+    transition: color 0.3s;  
+    padding: 0.5em 0.75em;  
+    border-radius: 4px;  
+}  
+
+header nav a:hover {  
+    color: #8e2426;  
+    font-weight: bold;  
+}
+
+#header-icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;  
+    transition: color 0.3s;  
+    display: flex;
+    align-items: center;
+}
+
+.reason {
+    display: none;
+    margin-right: 10px;
+    width: 100%;
+}
+
+@media (max-width: 1050px) {  
+    .icon {  
+        display: block; 
+        margin: 4px 0;
+    }  
+    .icon img {  
+        height: 55px;  
+    }  
+    .icon:hover {
+        background-color: #e393945c;
+        border-radius: 15px;
+    }
+    #header-icon {  
+        height: auto;  
+        margin: 5px 0;
+    }  
+    .reason {
+        display: block;
+        font-size: 22px;
+        color: #982828;
+    }
+}

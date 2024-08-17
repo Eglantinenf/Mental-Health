@@ -1,0 +1,19 @@
+footer {
+  background-color: #eda9a9;
+  color: #c15959;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  text-align: right;
+  width: 100%;
+  font-weight: 500;
+  margin-right: 5px;
+}
+  
+#grandpa {
+  display: block;
+  background-color: #f9b9bafb;
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+}

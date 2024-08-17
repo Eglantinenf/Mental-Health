@@ -1,0 +1,61 @@
+/* link other files to main */
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('pages/home.css');
+@import url('pages/test.css');
+@import url('pages/reasons.css');
+@import url('pages/audios.css');
+@import url('pages/other.css');
+@import url('pages/modal.css');
+/* ------------------------------------- */
+@media (prefers-reduced-motion: no-preference) {  
+    * {  
+      scroll-behavior: smooth;  
+    }  
+}
+/* --------------------------------------- */
+body {
+    font-family: 'Vazir', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    color: #2f2d2d; 
+    overflow-x: hidden;   
+}
+/* ------------main----------- */
+main {
+    padding-top: 5em;
+    background-color: #fefbfb;
+}
+
+.main-section {
+    display: flex;
+    height: 100vh;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 2em;
+    background-color: #fefbfb;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 2em auto;
+    max-width: 1000px;
+    text-align: center;
+    background: linear-gradient(45deg, #db898a, #fff);
+
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+

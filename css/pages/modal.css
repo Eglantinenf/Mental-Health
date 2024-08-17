@@ -1,0 +1,79 @@
+#score-modal {  
+    position: fixed;  
+    z-index: 1;  
+    left: 0;  
+    top: 0;  
+    width: 100%;  
+    height: 100%;  
+    overflow: auto;  
+    background-color: rgba(0, 0, 0, 0.4);  
+}  
+
+#score-result {  
+    color: #b93b3d;  
+    font-weight: bold;  
+}  
+
+.modal-content {  
+    background-color: #ebc0c0f0;  
+    margin: 15% auto;  
+    padding: 20px;  
+    border: 1px solid #888;  
+    border-radius: 10px;  
+    width: 80%;  
+    max-width: 1000px;
+}  
+
+.close-button {  
+    color: #dd6f6f;  
+    float: right;  
+    font-size: 28px;  
+    font-weight: bold;  
+    transition: color 0.3s, transform 0.3s;  
+}  
+
+.close-button:hover,  
+.close-button:focus {  
+    color: rgb(215, 82, 82);  
+    text-decoration: none;  
+    cursor: pointer;  
+    transform: scale(1.03);  
+}  
+
+#modal-link a {  
+    text-decoration: none;  
+    color: #b84a4c;  
+    transition: color 0.3s;  
+    font-weight: bold;  
+}  
+
+#modal-link {  
+    padding: 5px;  
+    display: inline-block;  
+    border-radius: 10px;  
+    bottom: 0;  
+}  
+
+#modal-link:hover {  
+    color: #c06062;  
+    background-color: #e6a1a24d;  
+}  
+
+#motive {  
+    color: #a02729;  
+    background-color: #e6a1a24d;  
+    font-weight: 500;  
+    padding: 5px;  
+}  
+
+@media (max-width: 768px) {  
+    .modal-content {  
+        margin: 50% auto;  
+        padding: 15px; 
+        width: 70%;  
+    }  
+
+    .close-button {  
+        font-size: 24px; /* Slightly smaller close button */  
+    }  
+}

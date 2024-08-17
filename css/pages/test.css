@@ -1,0 +1,151 @@
+#psychological-test {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    background-color: #ffffff;
+    border: 1px solid #db898a;
+    border-radius: 16px; 
+    padding: 2em;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+    max-width: 800px;
+    margin: 2em auto;
+    font-family: 'Vazir', sans-serif;
+}
+
+#test h2 {
+    font-size: 2.2em;
+    color: #681c1d;
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: 700; 
+}
+
+#testTime {
+    background-color: rgba(219, 137, 138, 0.2); 
+    padding: 10px;
+    border-radius: 8px;
+    color: #681c1d;
+    font-size: 1em;
+    text-align: center;
+}
+
+#psychological-test label {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #b64e50;
+}
+
+#name {
+    padding: 0.75em 1em;
+    border: 2px solid #db898a;
+    border-radius: 12px; 
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+#name:focus {
+    outline: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    border-color: #b45153;
+}
+
+#name::placeholder {
+    color: #999;
+    font-weight: bold;
+}
+
+#name:focus::placeholder {
+    opacity: 0;
+}
+
+#questions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em; 
+}
+
+#questions-container div {
+    background-color: #f4caca;
+    border-radius: 12px;
+    padding: 1.5em;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#questions-container div:hover {
+    background-color: #ecb0b0;
+    transform: translateY(-4px);
+}
+
+#questions-container label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    color: #792b2c;
+}
+
+#questions-container input[type="radio"] {
+    margin-right: 0.5em;
+    accent-color: #cb6e70;
+}
+
+#questions-container input[type="radio"] + label {
+    color: #555;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+#questions-container input[type="radio"]:checked + label {
+    color: #9e4445;
+    font-weight: 700;
+}
+
+#psychological-test button {
+    width: 80%;
+    padding: 0.75em 2em;
+    color: #fff;
+    background-color: #dc7577;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+    align-self: center;
+    font-weight: 700;
+}
+
+#psychological-test button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.15);
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: transform 0.3s;
+}
+
+#psychological-test button:hover::before {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#psychological-test button:hover {
+    background-color: #db898a;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
+}
+
+.qContainer {  
+    transition: filter 0.3s ease;  
+}  
+
+.blurred {  
+    filter: blur(1px); 
+}
