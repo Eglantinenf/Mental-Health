@@ -30,14 +30,14 @@
   }
   .spoiler-btn {
     padding: 0.75em 2em;
-    color: #fff; /* Changed to white for better contrast */
+    color: #fff; 
     background-color: #990f0f;
     border: none;
-    border-radius: 50px; /* Increased radius for modern look */
+    border-radius: 50px; 
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.1em; /* Adjusted font size */
-    font-weight: bold; /* Added bold font weight */
+    font-size: 1.1em; 
+    font-weight: bold; 
     text-align: center;
     transition: background-color 0.3s, transform 0.3s;
   }
@@ -69,25 +69,24 @@
     padding-top: 20px;  
     font-size: 2.5em;  
     color: #66090b;  
-    margin-bottom: 0.5em; /* Added margin-bottom for spacing below the header */  
+    margin-bottom: 0.5em;  
     font-weight: 700;  
     animation: fadeIn 1.5s ease-in-out;  
-    text-align: center; /* Centered the header text */  
+    text-align: center; 
 }  
 
 #music-container {  
     width: 100%;
-    padding: 1em; /* Added padding for the content area */  
+    padding: 1em; 
 }  
 
 #music-container h3 {  
     color: #ad494a;  
-    margin: 1em 0 0.5em 0; /* Set consistent margin: top, bottom, and reset margin to remove excess above */  
-}  
+    margin: 1em 0 0.5em 0; 
 
 #music-container audio {  
-    width: 100%; /* Ensured the audio player takes full width of its container */  
-    margin: 1em 0; /* Reduced margin for tighter spacing */  
+    width: 100%; 
+    margin: 1em 0; 
     border: 2px solid #db898a;  
     border-radius: 50px;  
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
